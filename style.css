@@ -178,7 +178,8 @@ h3 {
     margin-right: 0;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content,
+.dropdown:focus-within .dropdown-content {
     display: block;
 }
 .faq details {
